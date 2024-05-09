@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index de date</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Index de date</h1>
+  <p id="description">Mulțumim pentru timpul acordat</p>
+  <form id="survey-form" name="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Name:</label>
+      <input placeholder="Introduceti Numele" required name="name" id="name" type="text">
+      <label id="email-label" for="email">Email:</label>
+      <input placeholder="Email" required id="email" name="email" type="email">
+      <label id="number-label" for="Age">Varsta(optional):</label>
+      <input placeholder="Varsta" type="number" id="number" name="age" min="13" max="140">
+    </fieldset>
+    <fieldset>
+      <label for="animal-de-companie">Ce animal de companie iti doresti ?</label>
+      <select id="dropdown" name="animal-de-companie">
+        <option value="">Select One</option>
+        <option value="1">Caine</option>
+        <option value="2">Pisica</option>
+        <option value="3">Hamster</option>
+        <option value="4">Papagal</option>
+        <option value="5">Purici</option>
+      </select>
+    </fieldset>
+    <fieldset>
+    <label>
+      <input check value="1" name="option" type="radio">OK
+    </label
+    >
+    <label>
+      <input value="2" name="option" type="radio">Submit
+    </label
+    >
+    </fieldset>
+    <fieldset>
+      <label>
+        <input type="checkbox" name="option1" value="3">Optiunea 1
+        </label>
+        <label>
+        <input type="checkbox" name="option1" value="3">Optiunea 2
+        </label>
+      </fieldset>
+<fieldset>
+  <label for="comments">Lasa un comentariu
+      <textarea id="comments" rows="5" cols="30" placeholder="Ce pot imbunatati ?" ></textarea>
+      <input id="submit" type="submit" value="submit">
+    </label>
+  </fieldset>
+  </form>
+</body>
+</html>
